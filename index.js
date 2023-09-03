@@ -17,4 +17,15 @@ hiThere("Mickey");
 //howdy ho Mickey
 
 
-///
+///Exercise 2
+
+// Convert this to arrow function:
+// function times(p, q) {
+//     console.log(p*q)
+// };
+// times(3,7); //21
+let times= (p,q) => console.log(p*q)
+times(11,3); // 33
+//try other variables
+let time= (p,q) => console.log(p*q)
+time(4,6); //24
