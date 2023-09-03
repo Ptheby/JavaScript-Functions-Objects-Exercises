@@ -38,3 +38,24 @@ time(4,6); //24
 // calcRectangle(4,3);
 let calcRectangle=(length,width)=> console.log(length*width)
 calcRectangle(12,4); //48
+
+///Exercise 4- Object Creation and Manipulation
+//Construct an object named student with properties like name, age, and grade
+let student = {
+    name: "Walker",
+    age: 5,
+    grade: "Kindergarten",
+    print() {
+        console.log(`${this.name} is ${this.age} years old and is in ${this.grade}.`)
+    }
+};
+
+
+  student.print();
+
+  //Walker is 5 years old and is in Kindergarten
+  
+  ///here i create an object named student with the attributes or properties--key:values of name: walker, age:5 and grade:kindergarten,
+  //as a part of that object i create function called "print" and that function console logs with the `${ to pass in the values from
+  //the current object using "this" method and passing the values from the corresponding keys.  I am just not sure why the 
+  //strings do not need to be in quotations. 
