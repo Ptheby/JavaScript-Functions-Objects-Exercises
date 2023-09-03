@@ -29,3 +29,12 @@ times(11,3); // 33
 //try other variables
 let time= (p,q) => console.log(p*q)
 time(4,6); //24
+
+///Exercise 3- 
+///Create an arrow function that calculates the area of a rectangle. It should take the length and breadth as parameters.
+// function calcRectangle(length,width) {
+//    console.log(length * width);
+// }
+// calcRectangle(4,3);
+let calcRectangle=(length,width)=> console.log(length*width)
+calcRectangle(12,4); //48
